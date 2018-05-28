@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
                 mContacts.add(mContact);
             }
             phone.close();
-        }
+    }
         phoneCursor.close();
         mAdapter.notifyDataSetChanged();
     }
